@@ -1,0 +1,7 @@
+
+RUN JSON Server
+> npx json-server --watch {.json}
+
+TASKS
+- Mandatory:
+    * name
