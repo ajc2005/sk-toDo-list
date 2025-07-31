@@ -3,9 +3,38 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <link rel="shortcut icon" href="./src/assets/favicon/list.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="./home.css" />
+        <title>To Do App</title>
     </head>
     <body>
-    
+        <main class="home-main-container">
+            <button>New list</button>
+            <section class="list-dashboard-container"></section>
+        </main>
+
+        <!-- New List -->
+        <div class="new-list-modal-off">
+            <form>
+                <fieldset>
+                    <input type="text" placeholder="List Name" required />
+                </fieldset>
+                <button>Cancel</button>
+                <button type="submit">Create</button>
+            </form>
+        </div>
+
+        <!-- Edit List -->
+         <!-- 
+        <div class="edit-list-modal-off">
+            <form>
+                <fieldset>
+                    <input type="text" placeholder="List Name" required />
+                </fieldset>
+                <button>Cancel</button>
+                <button type="submit">Create</button>
+            </form>
+        </div>
+        -->
     </body>
 </html>

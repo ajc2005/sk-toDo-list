@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "id": "b2ca",
+      "name": "lista-ejemplo"
+    },
+    {
+      "id": "2594",
+      "name": "lista-ejemplo2"
+    }
+  ],
+  "task": [
+    {
+      "id": "c430",
+      "name": "tarea-ejemplo-Id",
+      "listId": "b2ca"
+    }
+  ]
+}
