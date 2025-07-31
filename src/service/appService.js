@@ -1,4 +1,4 @@
-const API_DB = "http://localhost:3000/api";
+const API_DB = "http://localhost:3000";
 const LIST_DB = `${API_DB}/lists`;
 const TASK_DB = `${API_DB}/tasks`;
 
