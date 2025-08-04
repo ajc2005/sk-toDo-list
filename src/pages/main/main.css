@@ -1,0 +1,21 @@
+@import url("../../../style.css");
+
+.mainPage-header__container {
+    background-color: lightgreen;
+}
+
+.mainPage-main__container {
+    background-color: lightblue;
+}
+
+.mainPage-section__list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.list {
+    border: 1px solid black;
+    background-color: lightcoral;
+}
