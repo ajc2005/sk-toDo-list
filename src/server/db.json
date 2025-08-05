@@ -1,63 +1,24 @@
 {
-  "list": [
+  "users": [
     {
-      "id": "b2ca",
-      "title": "Lista 1"
-    },
-    {
-      "id": "2594",
-      "title": "Lista 2"
-    },
-    {
-      "id": "986d",
-      "title": "Lista 3"
+      "id": "29ac",
+      "userTag": "userTest01",
+      "userEmail": "userTest01@gmail.com"
     }
   ],
-  "task": [
+  "lists": [
     {
-      "id": "24e8",
-      "title": "Tarea 1.1",
-      "listId": "b2ca"
-    },
+      "id": "e24y",
+      "listTitle": "List 1",
+      "userId": "29ac"
+    }
+  ],
+  "tasks": [
     {
-      "id": "0b99",
-      "title": "Tarea 1.2",
-      "listId": "b2ca"
-    },
-    {
-      "id": "76fc",
-      "title": "Tarea 1.3",
-      "listId": "b2ca"
-    },
-    {
-      "id": "d345",
-      "title": "Tarea 2.1",
-      "listId": "2594"
-    },
-    {
-      "id": "363b",
-      "title": "Tarea 2.2",
-      "listId": "2594"
-    },
-    {
-      "id": "1549",
-      "title": "Tarea 2.3",
-      "listId": "2594"
-    },
-    {
-      "id": "9770",
-      "title": "Tarea 3.1",
-      "listId": "986d"
-    },
-    {
-      "id": "1194",
-      "title": "Tarea 3.2",
-      "listId": "986d"
-    },
-    {
-      "id": "cde1",
-      "title": "Tarea 3.3",
-      "listId": "986d"
+      "id": "h4r2",
+      "taskTitle": "Task 1",
+      "description": "This is an example task.",
+      "listId": "e24y"
     }
   ]
 }
