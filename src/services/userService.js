@@ -42,7 +42,7 @@ export async function getAllUsers() {
         const DATA = await RES.json();
 
         // Debug msg
-        console.log("All created users: " + DATA);
+        console.log("All created users: ", DATA);
 
         return { status: "ok", DATA };
 
