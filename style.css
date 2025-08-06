@@ -3,12 +3,3 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
-:root {
-
-    /* == MEDIA QUERIES == */
-    --mq-mobile: 480px;
-    --mq-tablet: 768px;
-    --mq-desktop: 1024;
-
-}
