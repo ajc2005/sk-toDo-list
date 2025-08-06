@@ -1,24 +1,5 @@
 {
-  "users": [
-    {
-      "id": "29ac",
-      "userTag": "userTest01",
-      "userEmail": "userTest01@gmail.com"
-    }
-  ],
-  "lists": [
-    {
-      "id": "e24y",
-      "listTitle": "List 1",
-      "userId": "29ac"
-    }
-  ],
-  "tasks": [
-    {
-      "id": "h4r2",
-      "taskTitle": "Task 1",
-      "description": "This is an example task.",
-      "listId": "e24y"
-    }
-  ]
+  "lists": [],
+  "tasks": [],
+  "users": []
 }

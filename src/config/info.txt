@@ -1,13 +1,5 @@
+* Run JSON Server:
+    > pnpx i json-server --watch src/server/db.json
 
-RUN JSON Server
-- npm  > npx json-server --watch db.json
-- pnpm > pnpx json-server --watch db.json
-
-https://www.youtube.com/watch?v=gRkaen6MeQc
-
-TASKS
-- Mandatory:
-    * name
-
-TESTS
-> pnpm test
+* Run Jest Testing:
+    > pnpm test
