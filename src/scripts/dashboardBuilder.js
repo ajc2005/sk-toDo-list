@@ -7,8 +7,8 @@ export async function renderDashboard() {
 
     APP.innerHTML = "";
 
-    const { DATA: USER } = await getUserById(getCurrentUserId());
-    const { DATA: ALL_LISTS } = await getAllLists();
+    const USER = (await getUserById(getCurrentUserId())).DATA;
+    const ALL_LISTS = (await getAllLists()).DATA;
 
     const CUSTOM_MSG = document.createElement("h1");
     CUSTOM_MSG.textContent = `Welcome, ${USER.userTag}`;

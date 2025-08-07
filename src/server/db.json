@@ -34,6 +34,12 @@
       "title": "task1",
       "isCompleted": false,
       "listId": "8257"
+    },
+    {
+      "id": "c4b8",
+      "title": "task1",
+      "isCompleted": false,
+      "listId": null
     }
   ],
   "users": [
